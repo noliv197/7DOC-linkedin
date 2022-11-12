@@ -1,16 +1,16 @@
-# Nome do meu projeto
+# LinkdeIn Replica
 
 Rápida descrição do objetivo de fazer esse projeto
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
-| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
-| :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | https://url-do-desafio.com.br
+| :sparkles: Nome        | **LinkdeIn Replica**
+| :label: Tecnologias | html, css
+| :rocket: URL         | https://linkedin-replica-klzci3u0d-noliv197.vercel.app
+| :fire: Desafio     | https://7daysofcode.io/matricula/html-css-linkedin
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](https://imagizer.imageshack.com/img923/2849/XrsLxn.gif#vitrinedev)
 
 ## Detalhes do projeto
 
