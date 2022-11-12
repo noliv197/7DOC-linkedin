@@ -1,10 +1,10 @@
-# LinkdeIn Replica
+# LinkedIn Replica
 
 Rápida descrição do objetivo de fazer esse projeto
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **LinkdeIn Replica**
+| :sparkles: Nome        | **LinkedIn Replica**
 | :label: Tecnologias | html, css
 | :rocket: URL         | https://linkedin-replica-klzci3u0d-noliv197.vercel.app
 | :fire: Desafio     | https://7daysofcode.io/matricula/html-css-linkedin
