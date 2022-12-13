@@ -19,7 +19,7 @@
   * The challenge proposes to follow simple guidelines given over the course of 7 days to create a Front-End App. 
  
 * The main focus of this project was to practice how to:
-  * Analyze figma layout and arrange HTML accordingly
+  * Analyze figma layout and build HTML and CSS accordingly
   * Use Flexbox / Grid for layout responsiveness
   * Use responsiveness units to manipulate images and font sizes
 
