@@ -34,4 +34,3 @@
 
 - Observations:
   - Since the mobile layout was not provided, I did the responsiveness based on the current mobile linkedin layout 
-  - Lastest Version [here](https://linkedin-replica.vercel.app)
