@@ -4,7 +4,7 @@
 | -------------  | --- |
 | :sparkles: Name        | **LinkedIn Replica**
 | :label: Build with | html, css
-| :rocket: URL         | https://linkedin-replica-klzci3u0d-noliv197.vercel.app
+| :rocket: URL         | https://linkedin-replica.vercel.app
 | :fire: Challenge     | https://7daysofcode.io/matricula/html-css-linkedin
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
