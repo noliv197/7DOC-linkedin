@@ -1,0 +1,23 @@
+/* Botoes */
+.botao{
+    border-radius: var(--borda-curva-grande);
+    font-weight: var(--fonte-peso-botao);
+    padding: .5rem 2.5rem;
+    text-decoration: none;
+}
+.botao__primario{
+    background-color: var(--azul);
+    color: var(--preto);
+}
+.botao__secundario{
+    border: var(--borda-azul);
+    color: var(--azul);
+}
+.botao__padrao{
+    color: var(--branco);
+    font-weight: var(--fonte-peso-negrito);
+    border: var(--borda-branca);
+    margin-top: 0.5rem;
+    margin-left: calc(48px + 0.5rem);
+    padding: 0.25rem 1rem;
+}

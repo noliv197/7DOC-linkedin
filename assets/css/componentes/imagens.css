@@ -1,0 +1,33 @@
+/* Imagens */
+.imagem__logo{
+    margin-right: 1rem;
+}
+.imagem__banner{
+    box-sizing: border-box;
+    width: 100%;
+}
+.imagem__perfil{
+    box-sizing: border-box;
+    max-width: 160px;
+    max-height: 160px;
+    position: absolute;
+    left: 3%;
+    top: 50%;
+}
+.imagem__publicacao{
+    width: 100%;
+    object-fit: cover;
+}
+
+.imagem__miniatura{
+    max-height: 64px;
+}
+
+@media screen and (max-width:540px){
+    .imagem__perfil{
+        top: 0;
+    }
+    .imagem__logo{
+        margin-right: 0;
+    }
+}

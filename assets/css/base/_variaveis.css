@@ -1,0 +1,33 @@
+:root{
+    --fundo-pagina: #000000;
+    --fundo-card:#1B2226;
+    --fundo-busca:#38434F;
+
+    --branco:rgba(255, 255, 255, 0.9);
+    --cinza:rgba(255, 255, 255, 0.6);
+    --preto:rgba(0, 0, 0, 0.75);
+    --azul:#70B5F9;
+
+    --fonte: 'Roboto', sans-serif;
+    
+    --fonte-tamanho-titulo: 24px;
+    --fonte-tamanho-subtitulo: 20px;
+    --fonte-tamanho-grande: 16px;
+    --fonte-tamanho-normal: 14px;
+    --fonte-tamanho-pequeno: 12px;
+
+    --fonte-peso-normal: 400;
+    --fonte-peso-botao: 500;
+    --fonte-peso-medio: 600;
+    --fonte-peso-negrito: 700;
+
+    --borda-cinza: 1px solid rgba(255, 255, 255, 0.6);
+    --borda-branca: 1px solid rgba(255, 255, 255, 0.9);
+    --borda-azul: 1px solid #70B5F9;
+
+    --borda-curva-pequena: 4px;
+    --borda-curva-medio: 8px;
+    --borda-curva-grande: 16px;
+
+}
+

@@ -1,0 +1,271 @@
+/* Containers Principais */
+.container__principal{
+    border-radius: var(--borda-curva-grande);
+    padding: 1.5rem;
+}
+.container__secundario{
+    border-radius: var(--borda-curva-grande);
+    padding: 1rem;
+    height: fit-content;
+    margin-bottom: 1rem;
+}
+.container__secundario .card__resumo{
+    margin-bottom: 1rem;
+}
+.container__cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    margin-bottom: 2rem;
+}
+.container__cabecalho--mobile{
+    display: none;
+}
+.container__info-principal{
+    grid-area: principal;
+    border-radius: 16px;
+}
+.container__info-destaque{
+    grid-area: destaque;
+}
+.container__info-atividade{
+    grid-area: atividade;
+    border-radius: 16px;
+}
+.container__info-sobre{
+    grid-area: sobre;
+}
+.container__info-experiencia{
+    grid-area: experiencia;
+}
+.container__info-formacao{
+    grid-area: formacao;
+}
+.container__info-idioma{
+    grid-area: idioma;
+}
+.container__lateral{
+    background-color: var(--fundo-pagina);
+    grid-area: lateral;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Containers Secundários */
+.container__menu{
+    padding-top: 1rem;
+    margin-right: calc(320px + 5rem - 74px);
+}
+
+.container__cabecalho--principal{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+.container__imagens{
+    position: relative;
+    margin-bottom: 3rem;
+}
+.container__descricao{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem 1rem 0;
+    margin-left: 2rem;
+}
+.container__textos{
+    display: flex;
+    flex-direction: column;
+}
+.container__textos--resumo{
+    max-width: 210px;
+}
+.container__titulos{
+    padding: .5rem .2rem;
+}
+.container__botoes{
+    padding: 1rem .5rem;
+}
+.container__instituicoes{
+    display: flex;
+    flex-direction: column;
+}
+.container__estatisticas,
+.container__contato{
+    padding: .5rem 0;
+    position: relative;
+}
+.container__cards{
+    display: flex;
+    justify-content: space-between;
+}
+.container__feedback{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+}
+.container__informacoes{
+    display: flex;
+    padding: 1rem .5rem;
+    position: relative;
+}
+.container__informacoes span{
+    margin-left: 1rem;
+}
+.container__informacoes span::before,
+.container__contato span::after,
+.container__estatisticas span:last-child::before{
+    content: ".";
+    color: var(--cinza);
+    font-weight: var(--fonte-peso-normal);
+    position: absolute;
+    top: 45%;
+    transform: translate(-250%,-50%);
+
+}
+.container__atividade{
+    display: flex;
+    padding: 0 .5rem;
+}
+.container__atividade p{
+    margin-left: .6rem;
+}
+
+.container__atividades{
+    display: flex;
+    flex-direction: column;
+}
+.container__atividades > div:not(:last-child),
+.container__idiomas > div:not(:last-child){
+    border-bottom: var(--borda-cinza);
+}
+.container__atividade--conteudo{
+    padding: 1.5rem;
+}
+.container__atividade--exibeMais{
+    text-align: center;
+    margin-bottom: .6rem;
+}
+.container__atividade--exibeMais .texto__secundario:hover{
+    cursor: pointer;
+    margin: 1rem;
+}
+
+/* Card */
+.card__publicacao{
+    border: var(--borda-cinza);
+    border-radius: var(--borda-curva-medio);
+    max-width: 285px;
+    margin-top: 1rem;
+}
+.card__resumo{
+    display: flex;
+    margin: .5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card__resumo img{
+    width: 48px;
+    height: 48px;
+}
+.card__resumo div{
+    padding-left: .5rem;
+}
+.card__lista{
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+}
+.card__lista h3{
+    margin-left: 1.25rem;
+}
+.card__lista h3::before{
+    content: url("../../img/icone-ellipse.png");
+    padding-right: 1.7rem;
+
+}
+.card__lista span{
+    margin-left: 1.5rem;
+    padding-left: 2rem;
+    border-left: var(--borda-branca);
+}
+
+.card__idioma{
+    padding: .5rem;
+}
+
+@media screen and (max-width:1200px){
+    .container__cabecalho{
+        padding: 0 5rem;
+    }
+    .container__cabecalho--principal,
+    .container__menu{
+        margin: 0;
+    }
+}
+@media screen and (max-width:1100px){
+    .card__publicacao{
+        max-width: 200px;
+    }
+    .card__resumo{
+        max-width: 320px;
+        min-width: 270px;
+    }
+}
+@media screen and (max-width:1200px){
+    .container__cabecalho{
+        padding: 0 2.5rem;
+    }
+}
+@media screen and (max-width:890px){
+    .container__cabecalho{
+        display: none;
+    }
+    .container__cabecalho--mobile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 55px;
+        margin-bottom: 2rem;
+        padding: 0 2.5rem;
+    }
+    .container__principal,
+    .container__secundario,
+    .container__atividade--conteudo{
+        padding: .5rem;
+    }
+
+    .container__descricao{
+        flex-direction: column;
+        margin: 0;
+        padding: 2.5rem .5rem .5rem .5rem;
+    }
+    .container__instituicoes{
+        display: none;
+    }
+    .container__contato{
+        display: flex;
+        flex-direction: column;
+    }
+    .container__botoes{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .container__botoes .botao{
+        padding: 1rem 2rem;
+    }
+}
+@media screen and (max-width:675px){
+    .container__cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card__publicacao{
+        max-width: none;
+    }
+}
+
+

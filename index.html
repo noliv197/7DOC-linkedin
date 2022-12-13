@@ -1,0 +1,321 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedln</title>
+    <link rel="icon" href="assets/img/linkedin.png">
+
+    <link rel="stylesheet" href="assets/css/base/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/componentes/botoes.css">
+    <link rel="stylesheet" href="assets/css/componentes/container.css">
+    <link rel="stylesheet" href="assets/css/componentes/imagens.css">
+    <link rel="stylesheet" href="assets/css/componentes/inputs.css">
+    <link rel="stylesheet" href="assets/css/componentes/texto.css">
+    <link rel="stylesheet" href="assets/css/componentes/icones.css">
+
+</head>
+<body>
+    <nav class="container__cabecalho">
+        <div class="container__cabecalho--principal">
+            <img class="imagem__logo" src="assets/img/logo-linkedin.svg" alt="Logo Linkedin" >
+            <input class="input__busca icone--busca" type="text" placeholder="Pesquisar">
+        </div>
+        <div class="container__menu">
+            <a href="#" class="texto texto__link icone__top icone--inicio">Início</a>
+            <a href="#" class="texto texto__link icone__top icone--rede">Minha rede</a>
+            <a href="#" class="texto texto__link icone__top icone--vagas">Vagas</a>
+            <a href="#" class="texto texto__link icone__top icone--mensagens">Mensagens</a>
+            <a href="#" class="texto texto__link icone__top icone--notificacoes">Notificações</a>
+            <a href="#" class="texto texto__link icone__top icone--solucoes">Soluções</a>
+        </div>
+    </nav>
+    <nav class="container__cabecalho--mobile">
+            <img class="imagem__logo" src="assets/img/logo-linkedin.svg" alt="Logo Linkedin" >
+            <div class="icone__mobile icone--lupa"></div>
+            <a href="#" ><div class="icone__mobile icone--inicio"></div></a>
+            <a href="#" ><div class="icone__mobile icone--rede"></div></a>
+            <a href="#" ><div class="icone__mobile icone--vagas"></div></a>
+            <a href="#" ><div class="icone__mobile icone--mensagens"></div></a>
+            <a href="#" ><div class="icone__mobile icone--notificacoes"></div></a>
+            <a href="#" ><div class="icone__mobile icone--solucoes"></div></a>
+    </nav>
+    <main>
+        <section class="container__info-principal">
+            <div class="container__imagens">
+                <img class="imagem__banner" src="assets/img/imagem-capa.png" alt="banner" >
+                <img class="imagem__perfil" src="assets/img/foto-perfil.png" alt="foto de perfil do usuário" >
+            </div>
+            <div class="container__descricao">
+                <div class="container__textos">
+                    <h1 class="texto texto__titulo">Nome e Sobrenome</h1>
+                    <span class="texto texto__destaque">Desenvolvedor | HTML | CSS | Typescript | Node</span>
+                    <span class="texto texto__secundario">Fala sobre #javascript, #frontend, #reactjs, e #backend</span>
+                    
+                    <div class="container__contato">
+                        <span class="texto texto__secundario">Cidade, estado e país</span>
+                        <a class="texto texto__link--primario" href="#" >Informações de contato</a>
+                    </div>
+                    <div class="container__estatisticas">
+                        <span class="texto texto__primario">??? seguidores</span>
+                        <span class="texto texto__primario">??? conexões</span>
+                    </div>
+                    <div class="container__botoes">
+                        <a class="botao botao__primario" href="#">Mensagem</a>
+                        <a class="botao botao__secundario" href="#">Mais</a>
+                    </div>
+                </div>
+                <div class="container__instituicoes">
+                    <span class=" texto texto__destaque icone--empresa">Empresa</span>
+                    <span class=" texto texto__destaque icone--ensino">Instituição de ensino</span>
+                </div>
+            </div>
+        </section>
+        <section class="container__principal container__info-destaque">
+            <h2 class="container__texto texto__subtitulo">Destaques</h2>
+            <div class="container__cards">
+                <div class="card__publicacao">
+                    <div class="container__titulos">
+                        <h3 class="texto texto__secundario--pequeno">Publicação</h3>
+                        <label for="publicacao-1" class="texto texto__legenda">Legenda da publicação</label>
+                    </div>
+                    <img class="imagem__publicacao" id="publicacao-1" src="assets/img/publicacao-1.png" alt="" >
+                    <div class="container__feedback">
+                        <span class="texto__secundario--pequeno icone--visualizacao">124</span>
+                        <span class="texto__secundario--pequeno">5 comentários</span>
+                    </div>
+                </div>
+                <div class="card__publicacao">
+                    <div class="container__titulos">
+                        <h3 class="texto texto__secundario--pequeno">Publicação</h3>
+                        <label for="publicacao-2" class="texto texto__legenda">Legenda da publicação</label>
+                    </div>
+                    <img class="imagem__publicacao" id="publicacao-2" src="assets/img/publicacao-2.png" alt="">
+                    <div class="container__feedback">
+                        <span class="texto__secundario--pequeno icone--visualizacao">124</span>
+                        <span class="texto__secundario--pequeno">5 comentários</span>
+                    </div>
+                </div>
+                <div class="card__publicacao">
+                    <div class="container__titulos">
+                        <h3 class="texto texto__secundario--pequeno">Publicação</h3>
+                        <label for="publicacao-3" class="texto texto__legenda">Legenda da publicação</label>
+                    </div>
+                    <img class="imagem__publicacao" id="publicacao-3" src="assets/img/publicacao-3.png" alt="">
+                    <div class="container__feedback">
+                        <span class="texto__secundario--pequeno icone--visualizacao">124</span>
+                        <span class="texto__secundario--pequeno">5 comentários</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container__info-atividade">
+            <div class="container__atividade--conteudo">
+                <h2 class="container__texto texto__subtitulo">Atividades</h2>
+                <span class="texto texto__primario">??? seguidores</span>
+                <div class="container__atividades">
+                    <div class="card__atividade">
+                        <div class="container__informacoes">
+                            <h3 class="texto__secundario">Nome Sobrenome publicou isso</h3>
+                            <span class="texto__secundario">1 sem</span>
+                        </div>
+                        <div class="container__atividade">
+                            <img class="imagem__miniatura" src="assets/img/miniatura-1.png" alt="" >
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...</p>
+                        </div>
+                        <div class="container__feedback">
+                            <span class="texto__secundario--pequeno icone--visualizacao">124</span>
+                            <span class="texto__secundario--pequeno">5 comentários</span>
+                        </div>
+                    </div>
+                    <div class="card__atividade">
+                        <div class="container__informacoes">
+                            <h3 class="texto__secundario">Nome Sobrenome publicou isso</h3>
+                            <span class="texto__secundario">1 sem</span>
+                        </div>
+                        <div class="container__atividade">
+                            <img class="imagem__miniatura" src="assets/img/miniatura-2.png" alt="" >
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu...</p>
+                        </div>
+                         <div class="container__feedback">
+                            <span class="texto__secundario--pequeno icone--visualizacao">124</span>
+                            <span class="texto__secundario--pequeno">5 comentários</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__atividade--exibeMais">
+                <hr>
+                <span class="texto__secundario">Exibir todas as atividades</span>
+            </div>
+        </section>
+        <section class="container__principal container__info-sobre">
+            <h2 class="container__texto texto__subtitulo">Sobre</h2>
+            <p class="container__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </section>
+        <section class="container__principal container__info-experiencia">
+            <h2 class="container__texto texto__subtitulo">Experiências</h2>
+            <div class="card__experiencia">
+                <div class="card__resumo">
+                    <img class="" src="assets/img/icone-2.png" alt="Logo empresa">
+                    <div>
+                        <h3 class="texto__destaque">Empresa</h3>
+                        <span class="texto__secundario">1 a 7 sem</span>
+                    </div>
+                </div>
+            </div>
+            <ul>
+                <li class="card__lista">
+                    <h3 class="texto__destaque">Fullstack Developer</h3>
+                    <span>Tempo Integral</span>
+                    <span class="texto__secundario">jan de 2022 - o momento • <b>5 meses</b></span>
+                    <span class="texto__secundario">Cidade, estado e país</span>
+                </li>
+                <li class="card__lista">
+                    <h3 class="texto__destaque">Fullstack Developer (JR)</h3>
+                    <span>Tempo Integral</span>
+                    <span class="texto__secundario">jun de 2021 - jan de 2022 • <b>8 meses</b></span>
+                    <span class="texto__secundario">Cidade, estado e país</span>
+                </li>
+                <li class="card__lista">
+                    <h3 class="texto__destaque">Front-end Developer</h3>
+                    <span>Tempo Integral</span>
+                    <span class="texto__secundario">jan de 2021 - jun de 2021 • <b>6 meses</b></span>
+                    <span class="texto__secundario">Cidade, estado e país</span>
+                </li>
+            </ul>
+        </section>
+        <section class="container__principal container__info-formacao">
+            <h2 class="container__texto texto__subtitulo">Formação acadêmica</h2>
+            <div class="container__formacao">
+                <div class="card__resumo">
+                    <img class="" src="assets/img/icone-1.png" alt="Logo empresa">
+                    <div class="container__textos">
+                        <h3 class="texto__destaque">Instituição de ensino</h3>
+                        <span>Nome do curso</span>
+                        <span class="texto__secundario">2015 a 2019</span>
+                    </div>
+                </div>
+                <div class="card__resumo">
+                    <img class="" src="assets/img/icone-2.png" alt="Logo empresa">
+                    <div class="container__textos">
+                        <h3 class="texto__destaque">Instituição de ensino</h3>
+                        <span>Nome do curso</span>
+                        <span class="texto__secundario">2015 a 2019</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container__principal container__info-idioma">
+            <h2 class="container__texto texto__subtitulo">Idiomas</h2>
+            <div class="container__idiomas">
+                    <div class="card__idioma">
+                        <h3 class="texto__destaque">Português</h3>
+                        <span class="texto__secundario">Fluente ou nativo</span>
+                    </div>
+                    <div class="card__idioma">
+                        <h3 class="texto__destaque">Inglês</h3>
+                        <span class="texto__secundario">Intermediário</span>
+                    </div>
+                    <div class="card__idioma">
+                        <h3 class="texto__destaque">Francês</h3>
+                        <span class="texto__secundario">Básico</span>
+                    </div>
+            </div>
+        </section>
+        <section class="container__lateral">
+            <section class="container__secundario container__indicacao-populares">
+                <h2 class="texto texto__negrito">As pessoas também viram</h2>
+                <div class="card__resumo">
+                    <img class="" src="assets/img/perfil-2.png" alt="Foto de perfil">
+                    <div class="container__textos container__textos--resumo">
+                        <h3 class="texto__negrito--normal">Nome e Sobrenome</h3>
+                        <span class="texto__secundario--pequeno">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a href="" class="botao botao__padrao">Enviar Mensagem</a>
+                </div>
+                <div class="card__resumo">
+                    <img class="" src="assets/img/perfil-3.png" alt="Foto de perfil">
+                    <div class="container__textos container__textos--resumo">
+                        <h3 class="texto__negrito--normal">Nome e Sobrenome</h3>
+                        <span class="texto__secundario--pequeno">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a href="" class="botao botao__padrao">Enviar Mensagem</a>
+                </div>
+                <div class="card__resumo">
+                    <img class="" src="assets/img/perfil-4.png" alt="Foto de perfil">
+                    <div class="container__textos container__textos--resumo">
+                        <h3 class="texto__negrito--normal">Nome e Sobrenome</h3>
+                        <span class="texto__secundario--pequeno">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a href="" class="botao botao__padrao">Enviar Mensagem</a>
+                </div>
+                <div class="card__resumo">
+                    <img class="" src="assets/img/perfil-5.png" alt="Foto de perfil">
+                    <div class="container__textos container__textos--resumo">
+                        <h3 class="texto__negrito--normal">Nome e Sobrenome</h3>
+                        <span class="texto__secundario--pequeno">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a href="" class="botao botao__padrao">Enviar Mensagem</a>
+                </div>
+                <div class="card__resumo">
+                    <img class="" src="assets/img/perfil-6.png" alt="Foto de perfil">
+                    <div class="container__textos container__textos--resumo">
+                        <h3 class="texto__negrito--normal">Nome e Sobrenome</h3>
+                        <span class="texto__secundario--pequeno">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a href="" class="botao botao__padrao">Enviar Mensagem</a>
+                </div>
+            </section>
+            <section class="container__secundario container__indicacao-conhecidos">
+                <h2 class="texto texto__negrito">Pessoas que talvez você conheça</h2>
+                <div class="card__resumo">
+                    <img class="" src="assets/img/perfil-7.png" alt="Foto de perfil">
+                    <div class="container__textos container__textos--resumo">
+                        <h3 class="texto__negrito--normal">Nome e Sobrenome</h3>
+                        <span class="texto__secundario--pequeno">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a href="" class="botao botao__padrao">Conectar</a>
+                </div>
+                <div class="card__resumo">
+                    <img class="" src="assets/img/perfil-2.png" alt="Foto de perfil">
+                    <div class="container__textos container__textos--resumo">
+                        <h3 class="texto__negrito--normal">Nome e Sobrenome</h3>
+                        <span class="texto__secundario--pequeno">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a href="" class="botao botao__padrao">Conectar</a>
+                </div>
+                <div class="card__resumo">
+                    <img class="" src="assets/img/perfil-3.png" alt="Foto de perfil">
+                    <div class="container__textos container__textos--resumo">
+                        <h3 class="texto__negrito--normal">Nome e Sobrenome</h3>
+                        <span class="texto__secundario--pequeno">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a href="" class="botao botao__padrao">Conectar</a>
+                </div>
+                <div class="card__resumo">
+                    <img class="" src="assets/img/perfil-6.png" alt="Foto de perfil">
+                    <div class="container__textos container__textos--resumo">
+                        <h3 class="texto__negrito--normal">Nome e Sobrenome</h3>
+                        <span class="texto__secundario--pequeno">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a href="" class="botao botao__padrao">Conectar</a>
+                </div>
+                <div class="card__resumo">
+                    <img class="" src="assets/img/perfil-4.png" alt="Foto de perfil">
+                    <div class="container__textos container__textos--resumo">
+                        <h3 class="texto__negrito--normal">Nome e Sobrenome</h3>
+                        <span class="texto__secundario--pequeno">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</span>
+                    </div>
+                    <a href="" class="botao botao__padrao">Conectar</a>
+                </div>
+            </section>      
+        </section>
+    </main>
+    
+</body>
+</html>

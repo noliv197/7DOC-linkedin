@@ -1,0 +1,61 @@
+/* Icones */
+.icone--lupa{
+    background: url("../../img/icone-busca.svg") no-repeat;
+}
+.icone--busca{
+    background: url("../../img/icone-busca.svg") no-repeat, var(--fundo-busca);
+    background-position: 1% center;
+    padding-left: 2rem;
+}
+.icone--inicio{
+    background: url("../../img/icone-inicio.svg") no-repeat;
+}
+.icone--rede{
+    background: url("../../img/icone-minha-rede.svg") no-repeat;
+}
+.icone--vagas{
+    background: url("../../img/icone-vagas.svg") no-repeat;
+}
+.icone--mensagens{
+    background: url("../../img/icone-mensagens.svg") no-repeat;
+}
+.icone--notificacoes{
+    background: url("../../img/icone-notificacoes.svg") no-repeat;
+    border-right: var(--borda-cinza);
+}
+.icone--solucoes{
+    background: url("../../img/icone-solucoes.svg") no-repeat;
+}
+.icone--empresa{
+    background: url("../../img/icone-1.png") no-repeat;
+    background-size: contain;
+    background-position: left;
+    padding-left: 3rem;
+    margin-bottom: .5rem;
+}
+.icone--ensino{
+    background: url("../../img/icone-2.png") no-repeat;
+    background-size: auto;
+    background-position: left;
+    padding-left: 3rem;
+}
+.icone--visualizacao{
+    background: url("../../img/icone.png") no-repeat;
+    background-position: left;
+    padding-left: 2.2rem;
+}
+.icone__top{
+    background-position: top;
+    padding-top: 1.5rem;
+}
+
+.icone__mobile{
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width:890px){
+    .icone--notificacoes{
+        border: none;
+    }
+}

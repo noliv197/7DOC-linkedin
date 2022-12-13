@@ -1,0 +1,22 @@
+/* Inputs */
+.input__busca{
+    color: var(--branco);
+    border-radius: var(--borda-curva-pequena);
+    border: none;
+    height: 34px;
+    width: 280px;
+}
+.input__busca::placeholder{
+    color: var(--branco);
+    font-family: var(--fonte);
+    font-weight: var(--fonte-peso-normal);
+    font-size: var(--fonte-tamanho-normal);
+}
+
+
+@media screen and (max-width:890px){
+    .input__busca{
+        display: none;
+    }
+
+}
